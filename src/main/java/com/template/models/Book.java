@@ -9,8 +9,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Author {
-    private Long id;
-    private String name;
-    private Integer age;
+public class Book {
+    private String isbn;
+    private String title;
+    private Long authorId;
 }
